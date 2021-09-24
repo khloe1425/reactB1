@@ -2,16 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import reportWebVitals from './reportWebVitals';
 
+// phương thức do react định nghĩa
+// nhận vào 2 tham số: nội dung, thẻ sẽ được thêm nội dung
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <div>
+  //   DN01
+  // </div>
+  <App />
+ 
+  ,
   document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();
